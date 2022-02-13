@@ -7,7 +7,14 @@ h1,
 h2,
 h3 {
   color: rgb(53, 53, 53);
+  font-family: "Noto Sans JP", sans-serif;
+}
+h4,
+h4 {
+  font-weight: 400;
+  color: rgb(99, 99, 99);
 }
 // imports
 @import "./player";
 @import "./songs";
+@import "./library";
